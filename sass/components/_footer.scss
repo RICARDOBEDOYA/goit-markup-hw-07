@@ -1,0 +1,10 @@
+.footer {
+  background: #2f303a;
+  height: 252px;
+  padding: 60px 60px;
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+  }
+}

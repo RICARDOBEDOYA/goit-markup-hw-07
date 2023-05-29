@@ -1,0 +1,9 @@
+.find {
+  position: relative;
+  right: 160px;
+  margin-left: 95px;
+  &__title {
+    font-weight: 700;
+    color: var(--white-color);
+  }
+}

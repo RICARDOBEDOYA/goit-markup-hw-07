@@ -1,0 +1,59 @@
+@import "./components/navbar";
+@import "./components/team";
+@import "./components/backdrop";
+@import "./components/background";
+@import "./components/benefits";
+@import "./components/contacts";
+@import "./components/images";
+@import "./components/modal";
+@import "./components/customer";
+@import "./components/footer";
+@import "./components/address";
+@import "./components/find";
+@import "./components/subscription";
+@import "./components/menu";
+@import "./components/cards";
+
+:root {
+    --brand-color: #2196f3;
+    --white-color: #ffffff;
+    --black-color: #212121;
+    --grey-color: #757575;
+}
+body {
+    font-family: "Roboto", Courier, monospace;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+a {
+    font-style: normal;
+    text-decoration: none;
+    color: currentColor;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+p {
+    font-weight: 400;
+}
+.body-container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.active {
+    color: var(--brand-color);
+}
+.seccion-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    color: var(--black-color);
+    padding-top: 94px;
+    padding-bottom: 50px;
+}

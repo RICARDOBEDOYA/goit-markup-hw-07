@@ -1,0 +1,14 @@
+.address {
+  font-style: normal;
+  flex-direction: column;
+  line-height: 24px;
+
+  &__contact {
+    color: var(--white-color);
+    white-space: pre-line;
+  }
+
+  &__contact--grey {
+    color: rgba(255, 255, 255, 0.6);
+  }
+}

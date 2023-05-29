@@ -1,0 +1,23 @@
+.images {
+  margin: 0px 30px 94px 0px;
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &__container {
+    position: relative;
+  }
+
+  &__title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: var(--white-color);
+    background-color: rgba(47, 48, 58, 0.8);
+    padding: 27px;
+    margin: 0;
+  }
+}

@@ -1,0 +1,23 @@
+.customer {
+  margin: 0px 30px 94px 0px;
+  box-sizing: border-box;
+  width: 170px;
+  height: 81px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &__icon {
+    margin-top: 14px;
+    margin-left: 32px;
+    fill: #afb1b8;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* Color inicial del ícono */
+  }
+
+  &__icon:hover,
+  &:hover {
+    fill: var(--brand-color);
+    border-color: var(--brand-color);
+    /* Color al hacer hover */
+  }
+}

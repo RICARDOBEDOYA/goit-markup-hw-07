@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  padding: 24px;
+  justify-content: space-between;
+  align-items: center;
+
+  &__list {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1;
+    text-align: right;
+    color: var(--brand-color);
+    margin-right: 93px;
+  }
+
+  &__button {
+    position: relative;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    color: var(--black-color);
+    margin-right: 50px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__button.active::after {
+    content: "";
+    position: absolute;
+    width: 48px;
+    height: 4px;
+    left: 0px;
+    top: 43px;
+    background: var(--brand-color);
+    border-radius: 2px;
+  }
+
+  &__button:hover {
+    color: var(--brand-color);
+  }
+}
